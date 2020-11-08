@@ -1,0 +1,202 @@
+/* ヘッダー画像 */
+.h {
+  width: ３２５px;
+  height: ６８px;
+}
+
+/* ナビ部分 */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(235, 179, 27);
+}
+
+.header_nav {
+  margin-right: 25px;
+}
+
+.header_nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav_memu {
+  font-size: 16px;
+  padding: 50px 25px;
+}
+
+/* Main（ビジュアル）部分 */
+.mv {
+  background-image: url(img/mainbg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.mv-h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 185px;
+}
+
+.mv-p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* About */
+.about-h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd61a;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.about-h2ja {
+  font-size: 18px;
+  color: #222222;
+  text-align: center;
+  padding: 30px 0px 60px 0px;
+}
+.about-p1 {
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-p2 {
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-p3 {
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-p4 {
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+/* イメージ写真4枚 */
+.image {
+  display: flex;
+}
+
+.image img {
+  width: 25%;
+}
+
+/* course */
+.course-h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222222;
+  text-align: center;
+  padding: 60px 0px 30px 0px;
+}
+
+.course-p {
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.box-top {
+  display: flex;
+}
+.box1 {
+  width: 600px;
+  height: 400px;
+}
+.box1 img {
+  width: 600px;
+  height: 400px;
+}
+
+.box2 {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;
+}
+
+.text-h3 {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 120px 0 40px 50px;
+}
+.text-p {
+  width: 480px;
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.box-middle {
+  display: flex;
+}
+
+.box3 {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;
+}
+
+.box3-text-h3 {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 120px 0px 40px 0px;
+  display: block;
+  margin: 0px 50px 0px 120px;
+}
+
+.box3-text-p {
+  font-size: 16px;
+  display: block;
+  margin: 0px 50px 0px 120px;
+}
+
+.box4 {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;
+}
+
+.box4 img {
+  width: 600px;
+  height: 400px;
+}
+
+.box-bottom {
+  display: flex;
+}
+.box5 {
+  width: 600px;
+  height: 400px;
+}
+.box5 img {
+  width: 600px;
+  height: 400px;
+}
+
+.box6 {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;
+}
