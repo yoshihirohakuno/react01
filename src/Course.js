@@ -1,7 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 import imgPath1 from "./img/course_01.jpg";
 import imgPath2 from "./img/course_02.jpg";
 import imgPath3 from "./img/course_03.jpg";
+
+const Couse_h3 = styled.h3`
+  font-size: 26px;
+  font-weight: bold;
+  padding: 40px 0 20px 50px;
+`;
 
 const Course = () => {
   return (
@@ -21,22 +28,23 @@ const Course = () => {
         </div>
 
         <div className="box2">
-          <div className="text-h3">
+          <Couse_h3 className="text-h3">
             <h3>本格的な農園を使った実地研修</h3>
+          </Couse_h3>
+
+          <div className="text-p">
+            <p>
+              チーズアカデミーでは、本格的な農園を使った実地研修を
+              <br />
+              行うことができます。プロとして活躍するチーズ職人も
+              <br />
+              使用するような、広大で環境も整った農園を余すところ
+              <br />
+              なく使い、卒業時には本格的なチーズを自分の力で作れる
+              <br />
+              実践力の養成を目指します。{" "}
+            </p>
           </div>
-        </div>
-        <div className="text-p">
-          <p>
-            チーズアカデミーでは、本格的な農園を使った実地研修を
-            <br />
-            行うことができます。プロとして活躍するチーズ職人も
-            <br />
-            使用するような、広大で環境も整った農園を余すところ
-            <br />
-            なく使い、卒業時には本格的なチーズを自分の力で作れる
-            <br />
-            実践力の養成を目指します。
-          </p>
         </div>
       </div>
 
@@ -46,36 +54,36 @@ const Course = () => {
           <div className="box3-text-h3">
             <h3>必要な知識もしっかりと取得</h3>
           </div>
-        </div>
-        <div className="box3-text-p">
-          <p>
-            チーズ作りには、しっかりとした食に関する知識が
-            <br />
-            欠かせません。チーズアカデミーでは、一流講師陣による、
-            <br />
-            チーズ作りに必要ないろはを余すところなく学べます。
-            <br />
-            チーズそのものでなく、栄養学全般を学ぶことも
-            <br />
-            可能ですので、チーズ以外への展開も夢ではないでしょう。
-          </p>
-        </div>
 
+          <div className="box3-text-p">
+            <p>
+              チーズ作りには、しっかりとした食に関する知識が
+              <br />
+              欠かせません。チーズアカデミーでは、一流講師陣による、
+              <br />
+              チーズ作りに必要ないろはを余すところなく学べます。
+              <br />
+              チーズそのものでなく、栄養学全般を学ぶことも
+              <br />
+              可能ですので、チーズ以外への展開も夢ではないでしょう。
+            </p>
+          </div>
+        </div>
         <div class="box4">
-          <img src={imgPath2} className="box4" alt="" />;
+          <img src={imgPath2} className="box4" alt="" />
         </div>
       </div>
 
       {/* 下段部分 */}
       <div className="box-bottom">
         <div className="box5">
-          <img src={imgPath3} className="box5" alt="" />;
+          <img src={imgPath3} className="box5" alt="" />
         </div>
 
         <div className="box6">
-          <div className="text-h3">
+          <Couse_h3 className="text-h3">
             <h3>卒業制作はティスティング審査あり</h3>
-          </div>
+          </Couse_h3>
 
           <div className="text-p">
             <p>
