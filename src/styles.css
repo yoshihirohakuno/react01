@@ -30,7 +30,7 @@ a:hover {
   padding: 50px 25px;
 }
 
-/* Main（ビジュアル）部分 */
+/* Main（ビジュアル）部分
 .mv {
   background-color: pink;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ a:hover {
   background-size: cover;
   margin: 0 auto;
   height: 500px;
-}
+} */
 
 /* .mv-h1 {
   font-size: 45px;
@@ -305,7 +305,7 @@ a:hover {
 
 /* CONTACT */
 
-.contact-h2 {
+/* .contact-h2 {
   font-size: 24px;
   font-weight: bold;
   color: #222222;
@@ -332,7 +332,7 @@ a:hover {
   color: #222222;
   text-align: center;
   padding-bottom: 70px;
-}
+} */
 
 /* ここからフォーム部分 */
 
@@ -413,7 +413,7 @@ input[type="button"] {
   border-style: none;
 }
 
-footer {
+/* footer {
   background-color: #707070;
   width: 1200px;
   text-align: center;
@@ -423,4 +423,56 @@ footer p {
   color: white;
   font-size: 14px;
   padding: 30px 0px;
+} */
+
+/* More部分の装飾 */
+
+#close {
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px 0;
+  margin: 16px auto 0;
+}
+
+#mask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#modal {
+  background: #fff;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  border-radius: 15px;
+  position: absolute;
+  top: 3300px;
+  left: 300px;
+  right: 0;
+  margin: 0 auto;
+  transition: transform 0.5s;
+}
+
+#modal > p {
+  margin: 0 0 30px;
+}
+
+#mask.hidden {
+  display: none;
+}
+
+#modal.hidden {
+  transform: translate(0, -4000px);
+}
+
+.news_2 {
+  width: 400px;
+  margin-left: 50px;
 }

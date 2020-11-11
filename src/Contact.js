@@ -1,18 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 
+const ContactH2 = styled.h2`
+  font-size: 24px;
+  font-weight: bold;
+  color: #222222;
+  text-align: center;
+  padding-top: 60px;
+`;
+const ContactP = styled.p`
+  font-size: 16px;
+  color: #222222;
+  text-align: center;
+`;
+
+// フォーム部分のスタイル-------//
+
 const Contact = () => {
   return (
     // <!-- CONTACT -->
     <div id="contact" className="contact">
-      <div className="contact-h2">
+      <ContactH2>
         <h2>CONTACT</h2>
-      </div>
+      </ContactH2>
 
-      <div className="contact-p1">
+      <ContactP>
         <p>説明会お申し込み・お問い合わせ</p>
         <br />
-
         <p>
           ぜひ1度、足を運んでみませんか。説明会は随時開催中。
           <br />
@@ -23,8 +37,10 @@ const Contact = () => {
           ※チーズアカデミーは実際には存在しません。
           <br />
           間違っても問い合わせしないようお願いいたします。
+          <br />
+          <br />
         </p>
-      </div>
+      </ContactP>
 
       {/* // コンタクトフォーム -------// */}
       <div className="contact-form">
