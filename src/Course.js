@@ -4,10 +4,17 @@ import imgPath1 from "./img/course_01.jpg";
 import imgPath2 from "./img/course_02.jpg";
 import imgPath3 from "./img/course_03.jpg";
 
-const Couse_h3 = styled.h3`
+const CouseH3 = styled.h3`
   font-size: 26px;
   font-weight: bold;
-  padding: 40px 0 20px 50px;
+  padding: 30px 0 20px 50px;
+`;
+const Box3TextH3 = styled.h3`
+  font-size: 26px;
+  font-weight: bold;
+  padding: 40px 0px 40px 0px;
+  display: block;
+  margin: 0px 50px 0px 120px;
 `;
 
 const Course = () => {
@@ -28,9 +35,9 @@ const Course = () => {
         </div>
 
         <div className="box2">
-          <Couse_h3 className="text-h3">
+          <CouseH3 className="text-h3">
             <h3>本格的な農園を使った実地研修</h3>
-          </Couse_h3>
+          </CouseH3>
 
           <div className="text-p">
             <p>
@@ -51,9 +58,9 @@ const Course = () => {
       {/* 中段部分 */}
       <div className="box-middle">
         <div className="box3">
-          <div className="box3-text-h3">
+          <Box3TextH3 className="box3-text-h3">
             <h3>必要な知識もしっかりと取得</h3>
-          </div>
+          </Box3TextH3>
 
           <div className="box3-text-p">
             <p>
@@ -81,9 +88,9 @@ const Course = () => {
         </div>
 
         <div className="box6">
-          <Couse_h3 className="text-h3">
+          <CouseH3 className="text-h3">
             <h3>卒業制作はティスティング審査あり</h3>
-          </Couse_h3>
+          </CouseH3>
 
           <div className="text-p">
             <p>

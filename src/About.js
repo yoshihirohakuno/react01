@@ -5,7 +5,7 @@ import imgPath2 from "./img/about_03.jpg";
 import imgPath3 from "./img/about_02.jpg";
 import imgPath4 from "./img/about_01.jpg";
 
-const About_h2 = styled.h2`
+const AboutH2 = styled.h2`
   font-size: 24px;
   font-weight: bold;
   color: #ffd61a;
@@ -13,13 +13,13 @@ const About_h2 = styled.h2`
   padding-top: 60px;
 `;
 
-const About_h2ja = styled.h2`
+const AboutH2ja = styled.h2`
   font-size: 18px;
   color: #222222;
   text-align: center;
   padding: 30px 0px 60px 0px;
 `;
-const About_p = styled.p`
+const AboutP = styled.p`
   font-size: 16px;
   color: #222222;
   text-align: center;
@@ -29,13 +29,13 @@ const About_p = styled.p`
 const About = () => {
   return (
     <div id="about" className="about">
-      <About_h2 className="about-h2">
+      <AboutH2 className="about-h2">
         <h2>About</h2>
-      </About_h2>
-      <About_h2ja className="about-h2ja">
+      </AboutH2>
+      <AboutH2ja className="about-h2ja">
         <h2>チーズアカデミーについて</h2>
-      </About_h2ja>
-      <About_p className="about-p1">
+      </AboutH2ja>
+      <AboutP className="about-p1">
         <p>チーズアカデミーは、チーズ職人養成学校です。</p>
         <br />
         <p>
@@ -53,7 +53,7 @@ const About = () => {
           <br />
           チーズ職人への就職・転職もサポートします。
         </p>
-      </About_p>
+      </AboutP>
 
       <div className="image">
         <img src={imgPath1} className="image" alt="" />

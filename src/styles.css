@@ -17,9 +17,9 @@ a:hover {
   color: rgb(235, 179, 27);
 }
 
-.header_nav {
+/* .header_nav {
   margin-right: 25px;
-}
+} */
 
 .header_nav ul {
   display: flex;
@@ -27,7 +27,8 @@ a:hover {
 }
 .nav_memu {
   font-size: 16px;
-  padding: 50px 25px;
+  padding: 30px 30px;
+  margin-left: 35px;
 }
 
 /* Main（ビジュアル）部分
@@ -218,12 +219,13 @@ a:hover {
 
 .news_1 {
   font-size: 14px;
-  margin: 0px 15px 60px 15px;
+  margin: 0px 45px 30px 0px;
 }
 
 .news-contents {
   display: flex;
   justify-content: center;
+  margin-left: 45px;
 }
 
 .news-h2 {
@@ -231,7 +233,7 @@ a:hover {
   font-weight: bold;
   color: #ffd61a;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .news-h2ja {
@@ -244,11 +246,12 @@ a:hover {
 /* NEWSボタン */
 .button {
   width: 300px;
-  height: 40px;
+  height: 45px;
   background-color: #ffd61a;
   text-align: center;
   margin: 0 auto;
   font-size: 18px;
+  font-weight: bold;
   color: white;
   padding-top: 20px;
   transition: 0.4s;
@@ -454,8 +457,8 @@ footer p {
   border-radius: 15px;
   position: absolute;
   top: 3300px;
-  left: 300px;
-  right: 0;
+  left: 200px;
+  right: 200px;
   margin: 0 auto;
   transition: transform 0.5s;
 }
